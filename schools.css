@@ -1,0 +1,56 @@
+h1 {
+	font-family: 'Alegreya', serif; 
+	color: floralwhite;
+}
+
+h2 {
+	font-family: 'Alegreya', serif;
+	color: #5F5E7F;
+	font-size: 30px;
+	text-align: center;
+}
+h3 {
+	font-family: IBM Plex Sans, sans-serif ; 
+	color: #5F5E7F;
+	font-size: 16px;
+}
+body {background-color: #D089EF;
+padding-left: 50px;
+padding-right: 50px;
+}
+.banner {
+	background-image: url("schools-images/BrainsUnchainedLogo.png");
+	height: 250px; width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+}
+h4{
+	font-family: IBM Plex Sans, sans-serif ;
+	color: #5F5E7F;
+	font-size: 16px;
+}
+h5 {
+	font-family: IBM Plex Sans, sans-serif;
+	color: #5F5E7F;
+	font-size: 16px;
+}
+.navBar{
+	background-color: #D089EF;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.links {
+	display:  flex;
+}
+.links div {
+	margin-left:  20px;
+}
+.links div a {
+	text-decoration:  none;
+	color:  #5F5E7F;
+}
+.links div a:hover {
+	color: #966EF4;
+}

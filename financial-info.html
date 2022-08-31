@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="financial-info.css">
+
+	<title>Brains Unchained | Financial Information</title>
+</head>
+<body>
+	<div class="logo"></div>
+	<h1>Financial Information</h1>
+	<h2>Need financial help?</h2> 
+	<div class="education-img">
+			<img src="financial-info-images/education.png">
+	 </div>
+	<h3>Do you have a degree?</h3>
+	<input type="text" onkeydown="onenter(this)" id="degree-response">
+
+	<script type="text/javascript">
+		function onenter(element){
+			if (event.key==="Enter"){
+		var degreeresponse=element.value;
+		if (degreeresponse=="yes"){
+			window.location.href ="https://withfrank.org/";
+			//window.location.replace("https://withfrank.org/");
+		}
+		else if (degreeresponse=="no"){
+			window.location.href = "https://studentaid.gov/understand-aid/types/grants/pell";
+			//window.location.replace("https://studentaid.gov/understand-aid/types/grants/pell");
+		}
+		else {
+			alert("Please answer yes or no.");}
+		}}  
+	</script>
+	<button type= "button" onclick="location.href='home.html'">Home</button>
+</body>
+</html>

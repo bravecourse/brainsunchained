@@ -1,0 +1,45 @@
+h1 {
+	color: #5F5E75;
+	font-family: 'Alegreya', sans-serif ;
+	    font-size: 35px;
+      margin-left: 550px;
+      margin-right: 20px;
+      margin-top: 25px;
+      margin-bottom: 30px;
+      padding-top: 40px;}
+h2 {    font-size: 65px;
+      margin-left: 450px;
+      margin-right: 20px;
+      margin-top: 25px;
+      margin-bottom: 30px;
+      padding-top: 40px;}
+h3 { font-size: 45px;
+      margin-left: 500px;
+      margin-right: 20px;
+      margin-top: 25px;
+      margin-bottom: 30px;
+      padding-top: 40px;}
+input { font-size: 25px;
+	  border-color: #5F5E75;
+      margin-left: 550px;
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding-top: 5px;}
+
+body {
+      
+  background-color:#D089EF;}
+  .logo {
+  	background-image: url("logo.png");
+  	height: 250px; width: 100%;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+       }
+  button {border-radius: 10px;
+     color: purple;}
+     .education-img 
+     {text-align: center;
+     } 
+.education-img img 
+{width: 250px; height: 250px;}

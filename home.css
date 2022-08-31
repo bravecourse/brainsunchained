@@ -1,0 +1,44 @@
+body {background-color:#ACACBC;
+padding-left: 50px;
+padding-right: 50px;
+}
+#BUNs {margin: auto; display: block}
+header {text-align: center; font-family: 'Alegreya',serif;color: mediumorchid;font-size: 50px;}
+h1 {  text-align: center; font-family: 'Alegreya',
+ serif; color: mediumorchid; font-size: 40px; }
+h2{ font-family: IBM Plex sans, 
+    sans-serif ; color: black;}
+    p {
+    font-family: IBM Plex Sans, sans-serif ; 
+    font-style:  italic ; color:#;font-size: 21px;}
+    h3 {font-family: IBM Plex sans, 
+    sans-serif ; color: mediumorchid;}
+    p {
+    font-family: IBM Plex Sans, sans-serif ; 
+    font-style:  italic ; color:#;font-size: 21px;}
+    
+button {background-color:#966EF4; 
+font-size:22px;
+color:black; 
+border-radius: 15px;
+}
+#schools{ float: right; }
+#resources{font-size:15px;color: gray;}
+
+.navBar{ background-color:#ACACBC;
+    display: flex; 
+    justify-content: space-between;
+margin-bottom: 20px;
+}
+/**.navBar ul {
+    list-style-type: none;
+}**/
+.links {
+    display: flex;
+}
+.links div {margin-left: 25px}
+.links div a{
+    color: black;
+    text-decoration:  none; font-size: 24px;
+}
+.links div a:hover{color:orchid;}
